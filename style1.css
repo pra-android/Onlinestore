@@ -1,0 +1,206 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.head {
+  background: url("Hotel 3.jpg");
+  height: 570px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -10px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center; 
+  
+}
+
+.red{
+  color: red;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 12px;
+  position: absolute;
+}
+.logo {
+  padding: 10px 5px;
+  position: relative;
+  left: 50px;
+  font-size: 30px;
+  color: yellow;
+  cursor: pointer;
+  font-weight: bold;
+
+  width: 205px;
+  height: 30px;
+  margin-top: 15px;
+}
+.form{
+  position:absolute;
+  top:125px;
+  right:-350px;
+  background-color:gray;
+  width:235px;
+  color:lightgreen;
+  width:25%;
+  padding-left:8px;
+}
+.form-field {
+display: flex;
+justify-content: space-between;
+}
+#submit{
+  background-color:wheat;}
+ #submit:hover{
+     background-color:green;
+    
+ } 
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin-top: 15px;
+  padding: 5px;
+}
+nav li {
+  margin: 15px;
+  margin-left: 25px;
+  font-size: 25px;
+  list-style: none;
+  text-decoration: none;
+ 
+}
+nav li:hover {
+background-color: blue;
+  cursor: pointer;
+  color: yellow;
+}
+.middle {
+  margin: 5px;
+  padding: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+.tour {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 200px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  margin-right: 55px;
+  position: relative;
+  top: 110px;
+  align-items: center;
+  border-radius: 5px;
+}
+.tour h1 {
+  font-size: 20px;
+  text-align: center;
+  color: yellow;
+}
+.tour p {
+  font-size: 18px;
+  padding: 8px;
+  margin-top: 5px;
+  color: rgb(245, 248, 245);
+}
+.virtual {
+  padding: 10px;
+  background-color: wheat;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+.virtual:hover {
+  transform: scale(0.98);
+  background-color: crimson;
+}
+.specials {
+  display: flex;
+  flex-direction: column;
+}
+.mspecial {
+  align-self: center;
+  padding: 15px;
+  padding: 15px;
+}
+.mspecial h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: #333;
+  
+}
+hr {
+  border: 2px solid orange;
+  margin-bottom: 45px;
+}
+.grid-special {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 400px);
+  grid-row-gap:-1px;
+
+  padding: 10px;
+  margin: auto;
+  width: 1200px;
+}
+
+/*Utilities Classes*/
+.sp {
+  display: flex;
+
+  margin-left: 0px;
+  height: 193px;
+  width: 400px;
+}
+.sp:hover{
+  background-color:red;
+  cursor:cell;
+}
+.sp img {
+  height: 192px;
+  background: none;
+  width:200px;
+}
+
+
+.words {
+  position: relative;
+  left: -2px;
+  height: 168px;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 15px;
+  margin-top: 10px;
+}
+.words h3 {
+  text-align: center;
+  color: #333;
+}
+.words p {
+  font-size: 17px;
+  color: black;
+  padding-left: 10px;
+  margin-top: 8px;
+}
+.price {
+  font-weight: bold;
+  
+  position: relative;
+  left: 30px;
+  
+}
+.sp-last{
+  flex-direction: row-reverse;
+}

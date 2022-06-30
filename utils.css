@@ -1,0 +1,20 @@
+.foot
+{
+	text-align:center;
+	height: 12vh;
+	background-color: blue;
+	color:white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Lato', sans-serif;
+}
+.btn
+{
+	padding:5px 10px;
+	color:blue;
+	background-color: white;
+	cursor: pointer;
+}
+
+
